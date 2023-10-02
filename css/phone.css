@@ -1,0 +1,56 @@
+
+/* -----Navigation-design-------- */
+    
+#uppernav{
+    flex-direction: column;
+}
+#lowernav{
+    justify-content: left;
+ }
+ #lowernav ul{
+  
+ }
+ #account input{
+
+ }
+#searchbar{
+    justify-content: center;
+    width: 40rem;
+    /* padding: .6rem  1rem; */
+}
+#searchbar input{
+    
+}
+/* ------Home Section --------- */
+
+
+/* -----combo items Section ----- */
+#combo{
+    overflow:scroll;
+}
+.box{
+    flex-direction: column;
+}
+/* ------services Section---------*/
+#services h1{
+    font-size: 1rem;
+}
+.ser{
+    flex-direction: column;
+}
+.serv div{
+   
+}
+.serv div h2{
+    font-size:medium;
+}
+.serv img{
+    
+}
+/* -----section other details------ */
+
+
+/* Utility class */
+.h-primary{
+    font-size: 2rem;
+}

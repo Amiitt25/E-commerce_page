@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good-Food.com</title>
+    <!-- first of all link the frame and design -->
+    <link rel="stylesheet" href="css/desktop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=
+"https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    @media screen and (max-width:1220px) {
+        /* -----Navigation-design-------- */
+            
+        #uppernav{
+            flex-direction: column;
+        }
+        #logo{
+            width: 10%;
+            height: 6rem;
+        }
+        #logo img{
+            height: 6rem ;
+            width: 102%;
+        }
+        #lowernav{
+           /* flex-direction: column; */
+           justify-content: space-evenly;
+        }
+        #lowernav ul{
+            font-size: .9rem;
+            margin-left: 0px;
+        }
+        #lowernav img{
+            height: 2rem;
+            width: 2rem;
+        }
+        #account input{
+            font-size: .5rem;
+            margin: .4rem;
+            padding: .2rem  .1rem;
+            
+        }
+#searchbar{
+    justify-content: center;
+    width: 70%;
+    /* padding: .6rem  1rem; */
+}
+#searchbar input{
+    font-size: .9rem;
+    padding: .4rem 2rem;
+}
+/* ------Home Section --------- */
+
+
+/* -----combo items Section ----- */
+#combo{
+    overflow:scroll;
+}
+.box{
+    flex-direction: column;
+}
+.dimension img{
+    width: 60%;
+    height: 12rem;
+}
+/* ------services Section---------*/
+#services h1{
+    font-size: 2rem;
+}
+.ser{
+    flex-direction: column;
+}
+.ser div{
+    width: 43%;
+    height: 1%;
+    margin: 3rem;
+}
+.ser div img{
+    width: 77%;
+    height: 6%;
+}
+
+.serv div h2{
+    font-size:1em;
+}
+/* -----section other details------ */
+#other div h2{
+    font-size: 1.6rem;
+}
+#other div ul li{
+    font-size: .8rem;
+}
+#other div ul a{
+    font-size: .8rem;
+}
+#appDownload img{
+    height: 40%;
+    width: 76%;
+}
+#contact div img{
+    height: 1.7rem;
+    width: 1.5rem;
+}
+#contact ul {
+    margin: 3rem 1rem;
+}
+/* Utility class */
+.h-primary{
+    font-size: 2.7rem;
+}
+.btn{
+    padding: .2rem .4rem;
+    font-size: large;
+}
+}
+@media screen and (max-width:929px) {
+    #other div h2{
+     font-size: large;}
+     #other div ul li{
+        font-size: .99rem;
+    }
+    #contact div img{
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    .social a{
+        margin: 0rem .2rem;
+    }
+}
+@media screen and (max-width:700px) {
+
+/* -----Navigation-design-------- */
+#logo{
+            width: 11%;
+            height: 4rem;
+            /* padding-left: .3rem; */
+        }
+        #logo img{
+            height: 4rem ;
+            width: 101%;
+        }
+#lowernav ul{
+   justify-content: center;
+   font-size: .6rem;
+}
+#searchbar{
+    justify-content: center;
+    width: 80%;
+    /* padding: .6rem  1rem; */
+}
+#searchbar input{
+    font-size: .7rem;
+    padding: .3rem 1.4rem;
+}
+#account input{
+            font-size: .4rem;
+            margin: .3rem;
+            padding: .1rem  0rem;
+            
+        }
+/* -----combo items Section ----- */
+.dimension img{
+      width: 7rem;
+      height: 7rem;
+}
+.dimension h2{
+    font-size: small;
+}
+
+/* -------Services Section ------ */
+.ser div{
+    width: 42%;
+    height: 1%;
+    margin: 2rem;
+}
+.ser div img{
+    width: 90%;
+    height: 1%;
+}
+.serv div h2{
+    font-size: .6em;
+}
+/* ----------------last details items------------------  */
+#other div h2{
+    font-size: small;
+}
+#other div ul li{
+    font-size:.5rem;
+}
+#other div ul a{
+    font-size: .7rem;
+}
+#appDownload img{
+    height: 36%;
+    width: 82%;
+}
+#contact div img{
+    height: .8rem;
+    width: .8rem;
+}
+.social a{
+    margin: 0rem 0rem;
+}
+/* ----------Utility Classes------ */
+.h-primary{
+    font-size: 1.8rem;
+}
+.p-primary{
+    font-size: small;
+}
+.btn{
+    padding: .1rem .1rem;
+    font-size: small;
+}
+}
+@media screen and (max-width:500px) {
+    #logo{
+            width: 11%;
+            height: 3rem;
+        }
+        #logo img{
+            height: 3rem ;
+        }
+    #lowernav ul{
+        flex-direction: column;
+        background-color: #000000;
+        position: relative;
+        border-radius: 7px;
+        top: 2.9rem;
+        margin: 1.4rem 3.4rem;
+    }
+    #lowernav img{
+            height: 1.6rem;
+            width: 4rem;
+        }
+   #lowernav ul li {
+    margin: .4rem;
+   }
+   #account input{
+    align-self: center;
+   }
+    .serv div h2 {
+        font-size: .4rem;
+    }
+   .dimension img{
+    height: 68%;
+    width: 18%;
+   }
+   .dimension h2{
+    font-size: .7rem;
+   }
+   .I{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   #contact{
+    margin-bottom: 3.4rem;
+   }
+   #contact ul{
+   
+   }
+   .social{
+    position: relative;
+    left: -.7rem !important;
+    bottom: 2rem !important;
+   }
+   #appDownload{
+    position: relative;
+    top: -0.89rem;
+   }
+   #appDownload img{
+    height: 80%;
+    width: 82%;
+   }
+ .I div{
+    margin: 1rem;
+ }
+ footer{
+    font-size: .6rem;
+ }
+}
+</style>
+</head>
+<body>
+    <header id="navbar">
+        <div id="uppernav">
+            <div id="logo">
+            <img src="" alt="">
+        </div>
+        <div id="searchbar">
+            <input type="text" placeholder="grocery,fashion,furniture etc." >
+        </div>
+    </div>
+    <div id="lowernav">
+            <img src="Grocery Images/backgrounds/trolley.png" alt="">
+        <ul class="navigation">
+            <li class="item"><a href="#" target="_blank">Home</a></li>
+            <li class="item"><a href="#" target="_blank">Services</a></li>
+            <li class="item"><a href="#" target="_blank">About Us</a></li>
+            <li class="item"><a href="#" target="_blank">Contact Us</a></li>
+            <li class="item"><a href="#" target="_blank">Resources</a></li>
+        </ul>
+        <div id="account">
+            <input type="button" value="Account">
+        </div>
+     </div>
+    </header>
+    <section id="home">
+        <img src="Grocery Images/backgrounds/bg1.jpeg" alt="">
+        <h1 class="h-primary">
+           WE WILL DELIVER EVERYTHING YOU NEED
+        </h1>
+        <p class="p-primary">We provide the best and fresh groceries in the country</p>
+        <p class="p-primary">Get 40% off on your first order .</p>
+        <div class="button">
+            <button class="btn">Order here</button>
+        </div>
+    </section>
+    <section id="combo">
+        <div class="varitie1">
+            <div class="box">
+                <div  class="dimension">
+                <img src="Grocery Images/stickers/personal cares.png" alt="">
+                <h2>Personal Care</h2>
+                </div>
+                <div class="dimension">
+                <img src="Grocery Images/stickers/frutisn veg.png" alt="">
+                <h2>Vegies</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div  class="dimension">
+                <img src="Grocery Images/stickers/dry.png" alt="">
+                <h2>Nuts</h2>
+                </div>
+                <div  class="dimension">
+                 <img src="Grocery Images/stickers/kitchen.png" alt="">
+                 <h2>Kitchen</h2>
+                </div>
+            </div>
+        </div>
+        <div class="varitie2">
+             <div class="box">
+                 <div class="dimension">
+                 <img src="Grocery Images/stickers/phone.png" alt="">
+                 <h2>Phones</h2>
+                 </div>
+                 <div class="dimension">
+                   <img src="Grocery Images/stickers/sofa.png" alt="">
+                   <h2>Sofas</h2>
+                 </div>
+             </div>
+             <div class="box">
+                 <div class="dimension">
+                    <img src="Grocery Images/stickers/shoe.png" alt="">
+                    <h2>Shoes</h2>
+                 </div>
+                 <div class="dimension">
+                   <img src="Grocery Images/stickers/fashion.png" alt="">
+                   <h2>Fashion</h2>
+                 </div>
+             </div>
+        </div>
+    </section>
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="serv">
+            <div class="ser">
+                <div id="delivery">
+                    <img src="Grocery Images/icons/shipped.png" alt="">
+                     <h2>Fast Delivery</h2>
+                </div>
+                <div id="hygiene">
+                    <img src="Grocery Images/icons/shopkeeper.png" alt="">
+                   <h2>Hygiene</h2>
+                </div>
+            </div>
+            <div class="ser">
+                <div id="return">
+                    <img src="Grocery Images/pngicons/distribution." alt="">
+                    <h2>Easy Return</h2>
+                </div>
+                <div id="support">
+                    <img src="Grocery Images/icons/24-hours-support.png" alt="">
+                   <h2>24X7 Help</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="other">
+        <div class="I">
+            <div id="Info">
+               <h2>Help and Support</h2>
+               <hr>
+               <ul>
+                 <li class="item1"><a href="#">Privacy Policy</a></li>
+                 <li class="item1"><a href="#">E-Waste Policy</a></li>
+                 <li class="item1"><a href="#">About Us</a></li>
+                 <li class="item1"><a href="#">Terms & condition</a></li>
+                 <li class="item1"><a href="#">FAQ</a></li>
+               </ul>
+            </div>
+            <div id="products">
+             <h2>Categories</h2>
+             <hr>
+             <ul>
+                 <li class="item2"><a href="#">Cleaning & Household</a></li>
+                 <li class="item2"><a href="#">Biscuit Chocalate</a></li>
+                 <li class="item2"><a href="#">Personal Care</a></li>
+                 <li class="item2"><a href="#">Noodles Sauce</a></li>
+                 <li class="item2"><a href="#">Fresh Vegetables</a></li>
+                 <li class="item2"><a href="#">Breakfast dairy</a></li>
+                 <li class="item2"><a href="#">Gadgets</a></li>
+             </ul>
+            </div>
+        </div>
+        <div class="I">
+            <div id="appDownload">
+             <h2>Download App</h2>
+             <hr>
+             <img src="Grocery Images/backgrounds/play n app.png" alt="">
+            </div>
+            <div id="contact">
+             <h2>Connect with us</h2>
+             <hr>
+             <ul>
+                 <li class="item3">Telephone:+91-9893691683</li>
+                 <li class="item3">E-mail: GooFood@gmail.com</li>
+             </ul>
+             <div>
+               <div class="social">
+                 <a href="https://instagram.com/amey___25?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"> <img src="Grocery Images/logos/instagram.png" alt=""></a>
+                 <a href="#" target="_blank"><img src="Grocery Images/logos/facebook.png" alt=""></a>
+                 <a href="#" target="_blank"><img src="Grocery Images/logos/pinterest.png" alt=""></a>
+                 <a href="#" target="_blank"><img src="Grocery Images/logos/youtube.png" alt=""></a>
+                 <a href="#" target="_blank"> <img src="Grocery Images/logos/twitter.png" alt=""></a>
+               </div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <footer>Copyright&copy;.All rights are reserved</footer>
+</body>
+</html>
